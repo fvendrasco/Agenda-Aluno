@@ -15,6 +15,9 @@
 		03AA17661FC84353003CB2B8 /* HomeTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03AA17651FC84353003CB2B8 /* HomeTableViewController.swift */; };
 		03AA17681FC843B1003CB2B8 /* HomeTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03AA17671FC843B1003CB2B8 /* HomeTableViewCell.swift */; };
 		03AA176D1FC8515A003CB2B8 /* AlunoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03AA176C1FC8515A003CB2B8 /* AlunoViewController.swift */; };
+		5F9588EB259A1E8800FAFD17 /* AlunoAPI.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F9588EA259A1E8800FAFD17 /* AlunoAPI.swift */; };
+		5FE12C6E259A2CFE001406AB /* Repositorio.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5FE12C6D259A2CFE001406AB /* Repositorio.swift */; };
+		5FE12C70259A467C001406AB /* AlunoDAO.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5FE12C6F259A467C001406AB /* AlunoDAO.swift */; };
 		658B1AA82006456B006D944C /* AutenticacaoLocal.swift in Sources */ = {isa = PBXBuildFile; fileRef = 658B1AA72006456B006D944C /* AutenticacaoLocal.swift */; };
 		65F277D520068C1900A8F1BF /* icon_caelum.png in Resources */ = {isa = PBXBuildFile; fileRef = 65F277D420068C1900A8F1BF /* icon_caelum.png */; };
 		65F277D92006901C00A8F1BF /* Pino.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65F277D82006901C00A8F1BF /* Pino.swift */; };
@@ -25,6 +28,7 @@
 		B9D565A71FE14ECA00BDA536 /* Notificacoes.swift in Sources */ = {isa = PBXBuildFile; fileRef = B9D565A61FE14ECA00BDA536 /* Notificacoes.swift */; };
 		B9EA19FB1FDEBEAD00403CE0 /* Localizacao.swift in Sources */ = {isa = PBXBuildFile; fileRef = B9EA19FA1FDEBEAD00403CE0 /* Localizacao.swift */; };
 		B9FFD4511FDEE6F700CEE593 /* MapaViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B9FFD4501FDEE6F700CEE593 /* MapaViewController.swift */; };
+		D1EC8E89715AE32447640F53 /* Pods_Agenda.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3E7E0586FAD2C6571543E096 /* Pods_Agenda.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -38,6 +42,12 @@
 		03AA17651FC84353003CB2B8 /* HomeTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeTableViewController.swift; sourceTree = "<group>"; };
 		03AA17671FC843B1003CB2B8 /* HomeTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeTableViewCell.swift; sourceTree = "<group>"; };
 		03AA176C1FC8515A003CB2B8 /* AlunoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlunoViewController.swift; sourceTree = "<group>"; };
+		36AC681B71F42CD7FA0E9895 /* Pods-Agenda.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Agenda.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Agenda/Pods-Agenda.debug.xcconfig"; sourceTree = "<group>"; };
+		3E7E0586FAD2C6571543E096 /* Pods_Agenda.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Agenda.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		4088E4CE659DEACE3C633A94 /* Pods-Agenda.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Agenda.release.xcconfig"; path = "Pods/Target Support Files/Pods-Agenda/Pods-Agenda.release.xcconfig"; sourceTree = "<group>"; };
+		5F9588EA259A1E8800FAFD17 /* AlunoAPI.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlunoAPI.swift; sourceTree = "<group>"; };
+		5FE12C6D259A2CFE001406AB /* Repositorio.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Repositorio.swift; sourceTree = "<group>"; };
+		5FE12C6F259A467C001406AB /* AlunoDAO.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlunoDAO.swift; sourceTree = "<group>"; };
 		658B1AA72006456B006D944C /* AutenticacaoLocal.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AutenticacaoLocal.swift; sourceTree = "<group>"; };
 		65F277D420068C1900A8F1BF /* icon_caelum.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = icon_caelum.png; sourceTree = "<group>"; };
 		65F277D82006901C00A8F1BF /* Pino.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Pino.swift; sourceTree = "<group>"; };
@@ -55,6 +65,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D1EC8E89715AE32447640F53 /* Pods_Agenda.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -66,6 +77,8 @@
 			children = (
 				03AA174C1FC84154003CB2B8 /* Agenda */,
 				03AA174B1FC84154003CB2B8 /* Products */,
+				425EEBC3A835B1F2F03A3BE0 /* Pods */,
+				F70D5DA1F0A3B7BE50BE51E4 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -124,6 +137,7 @@
 		03AA17691FC84A2D003CB2B8 /* Alunos */ = {
 			isa = PBXGroup;
 			children = (
+				5F9588E9259A1E7400FAFD17 /* Model */,
 				03AA176A1FC84A2D003CB2B8 /* Controller */,
 			);
 			path = Alunos;
@@ -135,6 +149,25 @@
 				03AA176C1FC8515A003CB2B8 /* AlunoViewController.swift */,
 			);
 			path = Controller;
+			sourceTree = "<group>";
+		};
+		425EEBC3A835B1F2F03A3BE0 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				36AC681B71F42CD7FA0E9895 /* Pods-Agenda.debug.xcconfig */,
+				4088E4CE659DEACE3C633A94 /* Pods-Agenda.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		5F9588E9259A1E7400FAFD17 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				5F9588EA259A1E8800FAFD17 /* AlunoAPI.swift */,
+				5FE12C6F259A467C001406AB /* AlunoDAO.swift */,
+				5FE12C6D259A2CFE001406AB /* Repositorio.swift */,
+			);
+			path = Model;
 			sourceTree = "<group>";
 		};
 		65F277D320068C1900A8F1BF /* Assets */ = {
@@ -191,6 +224,14 @@
 			path = Controller;
 			sourceTree = "<group>";
 		};
+		F70D5DA1F0A3B7BE50BE51E4 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				3E7E0586FAD2C6571543E096 /* Pods_Agenda.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -198,9 +239,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 03AA175F1FC84154003CB2B8 /* Build configuration list for PBXNativeTarget "Agenda" */;
 			buildPhases = (
+				8F3A5E8DC2FBE466FBDC1791 /* [CP] Check Pods Manifest.lock */,
 				03AA17461FC84154003CB2B8 /* Sources */,
 				03AA17471FC84154003CB2B8 /* Frameworks */,
 				03AA17481FC84154003CB2B8 /* Resources */,
+				8507DC867D1700BE5DADA57B /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -259,13 +302,56 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		8507DC867D1700BE5DADA57B /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-Agenda/Pods-Agenda-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework",
+				"${BUILT_PRODUCTS_DIR}/AlamofireImage/AlamofireImage.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Alamofire.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/AlamofireImage.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Agenda/Pods-Agenda-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		8F3A5E8DC2FBE466FBDC1791 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Agenda-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		03AA17461FC84154003CB2B8 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				03AA176D1FC8515A003CB2B8 /* AlunoViewController.swift in Sources */,
+				5F9588EB259A1E8800FAFD17 /* AlunoAPI.swift in Sources */,
 				65F277D92006901C00A8F1BF /* Pino.swift in Sources */,
+				5FE12C70259A467C001406AB /* AlunoDAO.swift in Sources */,
 				03AA17661FC84353003CB2B8 /* HomeTableViewController.swift in Sources */,
 				03AA17561FC84154003CB2B8 /* Agenda.xcdatamodeld in Sources */,
 				A281001A1FD5C2F700E1BDF1 /* ImagePicker.swift in Sources */,
@@ -274,6 +360,7 @@
 				B9518EFC1FD9BCEB00EBAFA5 /* MenuOpcoesAlunos.swift in Sources */,
 				B939B9B81FDAC2630084A557 /* Mensagem.swift in Sources */,
 				B9D565A71FE14ECA00BDA536 /* Notificacoes.swift in Sources */,
+				5FE12C6E259A2CFE001406AB /* Repositorio.swift in Sources */,
 				B9FFD4511FDEE6F700CEE593 /* MapaViewController.swift in Sources */,
 				03AA174E1FC84154003CB2B8 /* AppDelegate.swift in Sources */,
 				B9EA19FB1FDEBEAD00403CE0 /* Localizacao.swift in Sources */,
@@ -412,6 +499,7 @@
 		};
 		03AA17601FC84154003CB2B8 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 36AC681B71F42CD7FA0E9895 /* Pods-Agenda.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -427,6 +515,7 @@
 		};
 		03AA17611FC84154003CB2B8 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4088E4CE659DEACE3C633A94 /* Pods-Agenda.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
