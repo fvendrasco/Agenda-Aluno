@@ -25,7 +25,6 @@ class AlunoViewController: UIViewController, ImagePickerFotoSelecionada {
     
     // MARK: - Atributos
     
-  
     let imagePicker = ImagePicker()
     var aluno:Aluno?
     
@@ -74,15 +73,26 @@ class AlunoViewController: UIViewController, ImagePickerFotoSelecionada {
         self.present(multimidia, animated: true, completion: nil)
     }
     
-    func montaDicionarioDeParametros() -> Dictionary<String, String>{
-        guard let nome = textFieldNome.text else { return[:] }
-        guard let endereco = textFieldEndereco.text else { return[:] }
-        guard let telefone = textFieldTelefone.text else { return[:] }
-        guard let site = textFieldSite.text else { return[:] }
-        guard let nota = textFieldNota.text else { return[:] }
+    func montaDicionarioDeParametros() -> Dictionary<String, String> {
+        
+        var id = ""
+        
+        if aluno?.id == nil {
+            id = String(describing: UUID())
+        }
+        else {
+            guard let idDoAlunoExistente = aluno?.id else { return [:] }
+            id = String(describing: idDoAlunoExistente)
+        }
+        
+        guard let nome = textFieldNome.text else { return [:] }
+        guard let endereco = textFieldEndereco.text else { return [:] }
+        guard let telefone = textFieldTelefone.text else { return [:] }
+        guard let site = textFieldSite.text else { return [:] }
+        guard let nota = textFieldNota.text else { return [:] }
         
         let dicionario:Dictionary<String, String> = [
-            "id" : String(describing: UUID()),
+            "id" : id.lowercased(),
             "nome" : nome,
             "endereco" : endereco,
             "telefone" : telefone,
@@ -120,3 +130,11 @@ class AlunoViewController: UIViewController, ImagePickerFotoSelecionada {
     }
     
 }
+
+
+
+
+
+
+
+
